@@ -1,0 +1,104 @@
+.promo {
+    position: relative;
+    padding-bottom: 70px;
+    &__bg {
+        position: absolute;
+        background: url('../../img/header/header_bg.png') no-repeat 50%/cover;
+        width: 967px;
+        height: 939px;
+        right: 0;
+        top:0;
+        z-index: -1;
+    }
+    &__head {
+        padding-top: 30px;
+        position: relative;
+        height: 35px;
+    }
+    &__menu {
+        position: absolute;
+        right: 0;
+        height: 35px;
+        width: 415px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                font-family: 'Raleway', sans-serif;
+                display: inline;
+                font-size: 10px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: 470px 690px;
+        justify-content: space-between;
+    }
+    &__img {
+        img {
+            margin-top: -75px;
+        }
+    }
+    &__text {
+        margin-top: 25px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #333333;
+        opacity: 0.5;
+    }
+    &__btn {
+        margin-top: 30px;
+    }
+    &__advantages {
+        margin-top: 290px;
+        padding: 0 200px;
+        display: grid;
+        grid-template-columns: repeat(3, 206px);
+        justify-content: space-between;
+    }
+    &__item {
+        &-img {
+            width: 206px;
+            height: 206px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+        &:nth-child(1) {
+            img {
+                width: 150px;
+            }
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 18px;
+            color: #333333;
+            text-align: center;
+        }
+        &-caption {
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+            color: #333333;
+            opacity: 0.5;
+        }
+        /* &:nth-child(1) {
+            .promo__item-img {
+                width: 190px;
+                height: 190px;
+            }
+        } */
+    }
+}

@@ -1,0 +1,62 @@
+.payment {
+    padding-top: 85px;
+    position: relative;
+    min-height: 1260px;
+    max-width: 1600px;
+    margin: 0 auto;
+    &__bg {
+        height: 710px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        background: url('../../img/footer_bg2.svg') no-repeat center center/cover;
+        &-title {
+            color: #ffffff;
+            text-align: center;
+            margin-top: 370px;
+        }
+        &-subtitle {
+            margin-top: 38px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            text-align: center;
+            color: #ffffff;
+        }
+        &-btn {
+            display: block;
+            width: 350px;
+            height: 67px;
+            margin: 52px auto 0px auto;
+            text-transform: uppercase;
+        }
+    }
+    &__title {
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 38px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #333333;
+    }
+    &__caption {
+        margin-top: 85px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 31px;
+        text-align: center;
+        color: #333333;
+    }
+    &__btn {
+        text-transform: uppercase;
+        width: 350px;
+        height: 67px;
+        display: block;
+        margin: 55px auto 0px auto;
+    }
+}

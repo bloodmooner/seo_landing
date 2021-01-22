@@ -1,0 +1,111 @@
+.achieve {
+    padding: 85px 0px 70px 0px;
+    background-color: #f3f3f3;
+    &__title {
+        padding-bottom: 45px;
+    }
+    &__wrapper {
+        width: 960px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 215px 380px 240px;
+        justify-content: space-between;
+    }
+    &__col {
+        div {
+            position: relative;
+            height: 180px;
+            img {
+                position: absolute;
+                filter: drop-shadow(0px 20px 20px rgba(118, 68, 35, 0.3));
+            }
+        }
+        &-1 {
+            div {
+                &:nth-child(1) {
+                    img {
+                        left: 0px;
+                        top: 70px;
+                    }
+                }
+                &:nth-child(2) {
+                    img {
+                        top: 100px;
+                        left: 80px;
+                    }
+                }
+            }
+        }
+        &-2 {
+            div {
+                &:nth-child(1) {
+                    img {
+                        left: 75px;
+                        top: 25px;
+                    }
+                }
+                &:nth-child(2) {
+                    img {
+                        top: 60px;
+                        left: 0px;
+                    }
+                }
+                &:nth-child(3) {
+                    img {
+                        top: -140px;
+                        right: 0px;
+                    }
+                }
+                &:nth-child(4) {
+                    img {
+                        top: -50px;
+                        left: 140px;
+                    }
+                }
+            }
+        }
+        &-3 {
+            div {
+                &:nth-child(1) {
+                    img {
+                        left: 0px;
+                        top: 0px;
+                    }
+                }
+                &:nth-child(2) {
+                    img {
+                        top: 30px;
+                        left: 120px;
+                    }
+                }
+                &:nth-child(3) {
+                    img {
+                        top: 100px;
+                        left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    &__subwrapper {
+        width: 1150px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(5, 199px);
+        grid-template-rows: 117px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        filter: drop-shadow(0px 10px 20px rgba(153, 151, 151, 0.5));
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            
+        }
+    }
+}
